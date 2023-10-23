@@ -1,0 +1,311 @@
+main{
+    background-color: rgb(236, 236, 236);
+    color: #575d69;
+}
+
+.main-container{
+    display: flex;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-left: 30px;
+}
+
+
+.right-container{
+    /* border: 2px solid black; */
+    width: 65%;
+}
+
+.main-outer-div{
+    background-color: white;
+    /* border: 2px solid rgb(212, 20, 20); */
+    /* padding-bottom: 6%; */
+}
+
+.outer-div{
+    border: 2px solid rgb(218, 218, 218);
+    background-color: white;
+    /* height: 250px; */
+    margin: 2px;
+    padding-bottom: 6%;
+}
+
+.text-content{
+    display: flex;
+}
+
+.text-head{
+    border: 1px solid rgb(202, 200, 200);
+    width: 50%;
+    padding: 5%;
+    
+}
+
+.magna{
+    letter-spacing: 4px;
+    font-weight:800;
+    font-size: 15px;
+    color:  #414244;;
+
+}
+.magna:hover{
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+}
+.lorem{
+    font-size: 10px;
+    letter-spacing:2px;
+    color: #575d69;
+    line-height: 25px;
+}
+.avtar{
+    border: 1px solid rgb(202, 200, 200);
+    padding: 5%;
+    width: 30%;
+}
+
+.date{
+    font-size: 10px;
+    padding-left: 50px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name{
+    font-size: 9px;
+    padding-left: 80px;
+    text-decoration-style:dotted;
+    text-decoration-line: underline;
+}
+.name:hover{
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+}
+.avtar-img{
+    border-radius: 100px;
+    margin-top: 2%;
+
+}
+.image-girl{
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.image-girl>img{
+    height: 225px;
+}
+
+.para1{
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 13px;
+    word-spacing: 2px;
+}
+
+.button-div{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 10px;
+}
+.button{
+    background-color: white;
+    border:1px solid #414244;
+    height: 40px;
+    width: 200px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.button:hover{
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+    border: 2px solid rgb(7, 224, 177);
+}
+.general{
+    margin-left: 20%;
+}
+
+.gen-text{
+    font-size: 9px;
+    padding-left: 80px;
+    text-decoration-style:dotted;
+    text-decoration-line: underline;
+}
+.gen-text:hover{
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+}
+.icons:hover{
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+}
+
+/* Left Side Style */
+.left-container{
+    /* border: 2px solid black; */
+    width: 35%;
+   
+}
+.left-box{
+    margin-right: 10%;
+    /* border: 2px solid rgb(233, 18, 18); */
+}
+
+
+.avtar2{
+    height: 50px;
+    border-radius: 40%;
+    line-height: 45px;
+}
+
+.future-text{
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(75, 74, 74);
+    letter-spacing: 4px;
+    line-height: 40px;
+}
+.another{
+    font-size: 13px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    
+}
+.html5up{
+    font-size: 10px;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+}
+.html5up:hover{
+    cursor: pointer;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+    transition: 1s;
+}
+
+.side-img{
+    height: 151px;
+}
+.img-card{
+    background-color: white;
+    border: 2px solid rgb(184, 182, 182);
+}
+.vitae{
+    font-size: 7px;
+    text-align: center;
+    font-weight: bolder;
+}
+.vitae:hover{
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+}
+.avtar-img-2{
+    margin-left: 40%;
+   
+}
+.avtar-img-2>img{
+    border-radius: 50%;
+}
+.avtar-img-2>img:hover{
+    cursor: pointer;
+}
+.date2{
+    font-size: 10px;
+    color: #a5a6a8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left-content-text{
+    display: flex;
+    padding: 4%;
+    letter-spacing: 1px;
+}
+
+
+/*  */
+
+.side-img-content>img{
+    height: 55px;
+    width: 60px;
+}
+.img-caption{
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+.img-caption:hover{
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+    transition: 1s;
+}
+.date3{
+     font-size: 9px;
+    color: #777879;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/*  */
+
+/* .About-box{
+
+} */
+
+.about{
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-weight: 800;
+    color: rgb(37, 36, 36);
+}
+.about-text{
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+.learn-button{
+    height: 30px;
+    width: 100px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    background: none;
+    border:1px solid #777879;
+}
+.learn-button:hover{
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+    border: 2px solid rgb(7, 224, 177);
+}
+
+.social>i{
+    margin-left: 3%;
+}
+.footer{
+    font-size: 8px;
+}
+.foot-button{
+    text-align: center;
+}
+.foot-button>button{
+    height: 50px;
+    width: 120px;
+    font-size: 10px;
+    background: none;
+    border:1px solid #777879;
+    letter-spacing: 1px;
+
+}
+.foot-button>button:hover{
+    cursor: pointer;
+    color:  rgb(7, 224, 177);
+    border: 2px solid rgb(7, 224, 177);
+    
+}
+/* 
+img:hover{
+    transform: scale(0);
+    transition: 0.5s all ease-in-out;
+} */
